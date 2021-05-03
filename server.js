@@ -9,6 +9,8 @@ if (process.env.NODE_ENV !== 'production') {
   const flash = require('express-flash')
   const session = require('express-session')
   const methodOverride = require('method-override')
+
+  //this comment is a change
   
   const initializePassport = require('./passport-config')
   initializePassport(
